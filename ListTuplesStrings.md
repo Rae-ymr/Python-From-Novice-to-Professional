@@ -1,4 +1,4 @@
-##**Lists**
+## **Lists**
 ####Common Sequence Operations
 
 #####Indexing
