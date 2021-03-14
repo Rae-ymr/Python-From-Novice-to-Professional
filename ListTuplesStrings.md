@@ -1,7 +1,7 @@
 ## **Lists**
-####Common Sequence Operations
+#### Common Sequence Operations
 
-#####Indexing
+##### Indexing
 accessing individual element 
 ```
 >>> greeting = 'Hello'
@@ -13,7 +13,7 @@ accessing individual element
 
 
 
-#####A Nifty Shortcut
+##### A Nifty Shortcut
 
 ```
 >>> numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
@@ -22,10 +22,10 @@ accessing individual element
 >>> numbers[-3:]
 [8, 9, 10]
 ```
-#####Longer Steps
-#####Adding Sequences
-#####None, Empty Lists, and Initialization
-#####Membership
+##### Longer Steps
+##### Adding Sequences
+##### None, Empty Lists, and Initialization
+##### Membership
 
 ```
 >>> permissions = 'rw'
@@ -33,10 +33,10 @@ accessing individual element
 True
 ```
 
-#####Length, Minimum, and Maximum
+##### Length, Minimum, and Maximum
 
-####Python’s Workhorse
-#####The list Function
+#### Python’s Workhorse
+##### The list Function
 ```
 >>> list('Hello')
 ['H', 'e', 'l', 'l', 'o']
@@ -44,8 +44,8 @@ True
 **''.join(somelist)** :To convert a list of characters such as the preceding code back to a string, you would use the
 following expression
 ```
-#####Deleting Elements
-#####Assigning to Slices
+##### Deleting Elements
+##### Assigning to Slices
 ```
 >>> name = list('Perl')
 >>> name
@@ -54,7 +54,7 @@ following expression
 >>> name
 ['P', 'e', 'a', 'r']
 ``` 
-#####append clear count index insert pop
+##### append clear count index insert pop
 
 
 
@@ -62,7 +62,7 @@ following expression
 
 
 
-##**Tuples**
+## **Tuples**
 ```
 >>> 1, 2, 3
 (1, 2, 3)
@@ -72,7 +72,7 @@ following expression
 
 
 
-##**Strings**
+## **Strings**
 ```
 >>>"{}, {} and {}".format("first", "second", "third")
 'first, second and third'
@@ -93,7 +93,7 @@ following expression
 +3.1
 -3.1
 ```
-#####join
+##### join
 ```
 >>> dirs = '', 'usr', 'bin', 'env'
 >>> '/'.join(dirs)
